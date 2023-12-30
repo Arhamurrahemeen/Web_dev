@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+
+/* header starts here */
+
+header{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgb(0, 0, 0,0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+.header-left img{
+    width: 40px;
+}
+#menu{
+    margin-left: 25px;
+    width: 36px;
+}
+#youtube{
+    width: 130px;
+    margin-left: 28px;
+}
+.header-right img {
+    width: 30px;
+    margin-right: 20px;
+}
+.header-right .me{
+    border-radius: 20px;
+    width: 35px;
+}
+.header-middle img{
+    width: 33px;
+}
+.header-middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 4px 8px;
+    border-radius: 20px;
+}
+.search-box input{
+    width: 400px;
+    border: 0;
+}
+
+/* Navigation/sidebar starts here  */
+
+.sidebar{
+    background-color: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 1;
+    padding-left: 2%;
+}
+.shortcut-links a img{
+    width: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+/* main */
+
+.video-container{
+    background-color: #f9f9f9;
+    padding-top: 20px;
+    margin-left: 250px;
+    margin-right: 1px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-template-rows: repeat(2, 200px); */
+  /* gap: 10px; */
+    /* grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); */
+    /* grid-column-gap: 16px; */
+    /* grid-row-gap: 30px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+}
+.video{
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); */
+    display: flex;
+    flex-direction: column;
+}
+.thumbnail img{
+    width: 300px;
+}
+.info img{
+    width: 50px;
+    border-radius: 50px;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+.details{
+    margin-left: 10px;
+}
